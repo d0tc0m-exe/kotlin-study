@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="44d366a1-fee9-4d21-a3bf-e194da8c5188" name="Default Changelist" comment="" />
+    <list default="true" id="44d366a1-fee9-4d21-a3bf-e194da8c5188" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/kotlin_tutorial/FunctionsKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/kotlin_tutorial/FunctionsKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/functions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/functions.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,10 +22,14 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1XOWNdAz5ZED4dAWm5LV2zONP8w" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -28,6 +37,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager" selected="Kotlin.FunctionsKt">
@@ -71,9 +81,9 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Kotlin.FunctionsKt" />
       <item itemvalue="Kotlin.TutorialKt" />
       <item itemvalue="Kotlin.Unnamed" />
+      <item itemvalue="Kotlin.FunctionsKt" />
     </list>
     <recent_temporary>
       <list>
@@ -119,22 +129,22 @@
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
     <state x="1197" y="297" width="501" height="520" key="FileChooserDialogImpl/70.27.1850.1053@70.27.1850.1053" timestamp="1581328559516" />
-    <state width="869" height="275" key="GridCell.Tab.0.bottom" timestamp="1581332655453">
+    <state width="879" height="275" key="GridCell.Tab.0.bottom" timestamp="1581682639373">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="869" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1581332655453" />
-    <state width="869" height="275" key="GridCell.Tab.0.center" timestamp="1581332655452">
+    <state width="879" height="275" key="GridCell.Tab.0.bottom/70.27.1850.1053@70.27.1850.1053" timestamp="1581682639373" />
+    <state width="879" height="275" key="GridCell.Tab.0.center" timestamp="1581682639372">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="869" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1581332655452" />
-    <state width="869" height="275" key="GridCell.Tab.0.left" timestamp="1581332655452">
+    <state width="879" height="275" key="GridCell.Tab.0.center/70.27.1850.1053@70.27.1850.1053" timestamp="1581682639372" />
+    <state width="879" height="275" key="GridCell.Tab.0.left" timestamp="1581682639372">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="869" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1581332655452" />
-    <state width="869" height="275" key="GridCell.Tab.0.right" timestamp="1581332655453">
+    <state width="879" height="275" key="GridCell.Tab.0.left/70.27.1850.1053@70.27.1850.1053" timestamp="1581682639372" />
+    <state width="879" height="275" key="GridCell.Tab.0.right" timestamp="1581682639372">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
-    <state width="869" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1581332655453" />
+    <state width="879" height="275" key="GridCell.Tab.0.right/70.27.1850.1053@70.27.1850.1053" timestamp="1581682639372" />
     <state x="898" y="188" width="1022" height="737" key="SettingsEditor" timestamp="1581328712574">
       <screen x="70" y="27" width="1850" height="1053" />
     </state>
