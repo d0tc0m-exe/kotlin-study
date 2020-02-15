@@ -4,38 +4,27 @@
 //    println(getGreeting())
 //}
 
-fun sayHello(greeting:String, itemToGreet:String) = println("$greeting $itemToGreet") 
+fun sayHello(greeting:String, vararg itemsToGreet:String) {
+    itemsToGreet.forEach { itemToGreet ->
+        println("$greeting $itemToGreet")
+    }
+}
+
+fun greetPerson(greeting: String = "Hello", name: String = "Nate") = println("$greeting $name")
 
 fun main() {
+//    greetPerson()
+    val things = arrayOf("Kotlin",  "Coding", "Tutorials")
 //    val things = listOf("Kotlin",  "Coding")
-    val things = mutableListOf("Kotlin",  "Coding")
-    things.add("Tutorials")
+//    val things = mutableListOf("Kotlin",  "Coding")
+//    things.add("Tutorials")
+    sayHello(itemsToGreet = *things, greeting = "Hello")
+    val map = mutableMapOf("1 " to " K", "2 " to " O", "3 " to " T", "4 " to " L", "5 " to " I", "6 " to " N")
+    map.put("7 ", " T")
+    map.put("8 ", " O")
+    map.put("9 ", " P")
 
-//    val map = mapOf(1 to "K", 2 to "O", 3 to "T", 4 to "L", 5 to "I", 6 to "N")
-    val map = mutableMapOf(1 to "K", 2 to "O", 3 to "T", 4 to "L", 5 to "I", 6 to "N")
-    map.put(7, "T")
-    map.put(8, "O")
-    map.put(9, "P")
+    map.forEach {key, value -> println("$key->$value")}
 
-    map.forEach {key, value -> println("$key -> $value")}
-//    things.forEach { things ->
-//        println(things)
-//    }
-//    sayHello("Hey", "Nate")
-//    val things = arrayOf("Kotlin", "Coding", "HelloWRLD")
-//    println(things.size)
-//    println(things.get(2))
-//    println(things[1])
-
-//    for(things in things) {
-//        println(things)
-//    }
-
-//    things.forEach { things ->
-//        println(things)
-//    }
-
-//    things.forEachIndexed { index, thing ->
-//        println("$thing is at index $index")
-//    }
+    sayHello("Good Morning", *things)
 }
